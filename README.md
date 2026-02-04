@@ -11,39 +11,44 @@
 ---
 
 ## 👨‍💻 About Me
-Firmware Engineer with hands-on experience in **embedded system design, microcontroller firmware development, and custom PCB design**.  
-Strong interest in building **reliable, low-power, and production-ready embedded solutions** using STM32, Raspberry Pi, and Arduino platforms.
+Firmware Engineer with hands-on experience in **embedded firmware development, microcontroller-based system design, and custom PCB development**.  
+Focused on building **efficient, reliable, and production-oriented embedded solutions**.
 
 ---
 
 ## 🚀 Key Projects
 
 ### 🔹 Custom STM32F103 PCB Design
-- Designed a **compact, 2-layer custom PCB** based on the STM32F103 microcontroller  
-- Developed complete **schematics, PCB layout, and Gerber files** using KiCad  
-- Focused on **power integrity, pin optimization, and manufacturability**  
-- Suitable for embedded prototyping and real-world deployment  
+- Designed a **compact 2-layer custom PCB** using STM32F103  
+- Developed **schematics, PCB layout, and manufacturing files**  
+- Emphasis on **power management, signal integrity, and scalability**  
+- Suitable for embedded prototyping and real-world applications  
 
 ---
 
 ## 🛠️ Technical Skills
 
 ### Embedded & Firmware
+- Embedded C
 - STM32 (Bare-metal, HAL)
 - Arduino
 - Raspberry Pi
-- Embedded C
-- GPIO, UART, I²C, SPI, Timers
+- UART, I²C, SPI, Timers, GPIO
 
 ### Hardware & PCB Design
-- KiCad (Schematic & PCB Layout)
-- Component selection & BOM creation
+- Schematic design & PCB layout
+- Component selection & BOM
 - 2-layer PCB design
-- Debugging & testing
+- Debugging & validation
 
-### Tools & Platforms
+---
+
+## 🧰 Tools & IDEs
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=c,arduino,raspberrypi,stm32,git" />
+  <img src="https://skillicons.dev/icons?i=stm32" />
+  <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/KiCad-314E88?style=for-the-badge&logo=kicad&logoColor=white" />
+  <img src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=for-the-badge&logo=altiumdesigner&logoColor=white" />
 </p>
 
 ---
