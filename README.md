@@ -1,54 +1,61 @@
 <div align="center">
 
-# Hi, I'm Saran 👋
-### Embedded Systems Enthusiast | Firmware Developer
+# Saran  
+### Firmware Engineer | Embedded Systems Developer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-PROFILE-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN_URL)
-[![Gmail](https://img.shields.io/badge/Gmail-EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/YOUR_LINKEDIN_URL)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+
+</div>
 
 ---
 
-</div>
+## 👨‍💻 About Me
+Firmware Engineer with hands-on experience in **embedded system design, microcontroller firmware development, and custom PCB design**.  
+Strong interest in building **reliable, low-power, and production-ready embedded solutions** using STM32, Raspberry Pi, and Arduino platforms.
+
+---
 
 ## 🚀 Key Projects
-* **Custom-STM32F1-PCB-Design:** A compact STM32F103-based custom PCB designed for embedded development and prototyping. Includes schematic and Gerber files.
-# STM32F407 Bare Metal LED Blink
 
-A low-level implementation of an LED blinking application for the **STM32F407VG** (Cortex-M4) without using HAL or Standard Peripheral Libraries.
+### 🔹 Custom STM32F103 PCB Design
+- Designed a **compact, 2-layer custom PCB** based on the STM32F103 microcontroller  
+- Developed complete **schematics, PCB layout, and Gerber files** using KiCad  
+- Focused on **power integrity, pin optimization, and manufacturability**  
+- Suitable for embedded prototyping and real-world deployment  
 
-## 🎯 Project Highlights
-- **Direct Register Manipulation:** Configured the RCC and GPIO registers manually.
-- **Bare Metal C:** No overhead from external abstraction layers.
-- **Hardware:** STM32F407 Discovery Board.
-
-## 🛠️ How it Works
-1. **Clock Activation:** Enabled the AHB1 bus clock for Port D via the `RCC_AHB1ENR` register.
-2. **GPIO Configuration:** Set Port D Pin 12 to general-purpose output mode using `GPIOD_MODER`.
-3. **Control Loop:** Used the Output Data Register (`GPIOD_ODR`) to toggle the pin state within an infinite loop.
-
-## 🔧 Setup
-- Compiler: `arm-none-eabi-gcc`
-- Flashing Tool: `STM32CubeProgrammer` or `st-link`
 ---
 
-## 🛠️ Technical Expertise
+## 🛠️ Technical Skills
 
-### Embedded Systems & Hardware
-<p align="left">
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,stm32,c" />
-</a>
-</p>
+### Embedded & Firmware
+- STM32 (Bare-metal, HAL)
+- Arduino
+- Raspberry Pi
+- Embedded C
+- GPIO, UART, I²C, SPI, Timers
 
-### CAD & Design Tools
+### Hardware & PCB Design
+- KiCad (Schematic & PCB Layout)
+- Component selection & BOM creation
+- 2-layer PCB design
+- Debugging & testing
+
+### Tools & Platforms
 <p align="left">
-<img src="https://img.shields.io/badge/KiCad-314E88?style=for-the-badge&logo=kicad&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=c,arduino,raspberrypi,stm32,git" />
 </p>
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Statistics
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Saran0321&show_icons=true&theme=transparent" height="170px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saran0321&layout=compact&theme=transparent" height="170px" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Saran0321&show_icons=true&theme=transparent" height="160px" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saran0321&layout=compact&theme=transparent" height="160px" />
 </div>
+
+---
+
+## 📫 Contact
+- LinkedIn: [linkedin.com/in/YOUR_LINKEDIN_URL](https://linkedin.com/in/YOUR_LINKEDIN_URL)
+- Email: your-email@gmail.com
