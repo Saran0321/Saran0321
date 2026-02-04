@@ -12,7 +12,23 @@
 
 ## 🚀 Key Projects
 * **Custom-STM32F1-PCB-Design:** A compact STM32F103-based custom PCB designed for embedded development and prototyping. Includes schematic and Gerber files.
+# STM32F407 Bare Metal LED Blink
 
+A low-level implementation of an LED blinking application for the **STM32F407VG** (Cortex-M4) without using HAL or Standard Peripheral Libraries.
+
+## 🎯 Project Highlights
+- **Direct Register Manipulation:** Configured the RCC and GPIO registers manually.
+- **Bare Metal C:** No overhead from external abstraction layers.
+- **Hardware:** STM32F407 Discovery Board.
+
+## 🛠️ How it Works
+1. **Clock Activation:** Enabled the AHB1 bus clock for Port D via the `RCC_AHB1ENR` register.
+2. **GPIO Configuration:** Set Port D Pin 12 to general-purpose output mode using `GPIOD_MODER`.
+3. **Control Loop:** Used the Output Data Register (`GPIOD_ODR`) to toggle the pin state within an infinite loop.
+
+## 🔧 Setup
+- Compiler: `arm-none-eabi-gcc`
+- Flashing Tool: `STM32CubeProgrammer` or `st-link`
 ---
 
 ## 🛠️ Technical Expertise
